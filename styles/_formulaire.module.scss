@@ -1,0 +1,46 @@
+@import "./variable.module";
+.formulaire_form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+  .formulaire_form_label_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    font-weight: 900;
+    border-radius: 15px;
+    letter-spacing: 0.5rem;
+    width: 80%;
+    box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    background-color: $colorNavFooter;
+  }
+  .formulaire_form_input_button {
+    padding: 1rem;
+    box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px 6px 34px -1px rgba(0, 0, 0, 0.75);
+    color: #eae5e5;
+    background: #993399;
+    border: none;
+    width: 100%;
+    &:hover {
+      transform: scale(1.02);
+      background: #5b1e5b;
+    }
+  }
+  & input,
+  label {
+    cursor: pointer;
+  }
+}

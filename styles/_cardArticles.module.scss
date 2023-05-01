@@ -1,0 +1,22 @@
+@import "./variable.module";
+
+.CardArticles_article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  // border: solid 1px black;
+
+  padding: 1rem;
+  min-width: 150px;
+  min-height: 200px;
+  color: $primary-color;
+
+  .CardArticles_h2 {
+    letter-spacing: 0.5rem;
+  }
+  .CardArticles_p {
+    max-width: 20rem;
+  }
+}

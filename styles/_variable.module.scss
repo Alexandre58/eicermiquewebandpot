@@ -1,0 +1,10 @@
+/* variables.module.scss */
+$primary-color: #1d1f1a;
+$colorNavFooter: rgb(235, 235, 243);
+$backGroundAside: rgb(211, 211, 226);
+
+:export {
+  primaryColor: $primary-color;
+  colorNavFooter: $colorNavFooter;
+  backGroundAside: $backGroundAside;
+}
