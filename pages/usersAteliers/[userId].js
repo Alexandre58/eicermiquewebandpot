@@ -14,7 +14,7 @@ const User = ({ articles }) => {
   }
   return (
     <section className={styles.users_section_container}>
-      {articles.map((article) => {
+      {articles?.map((article) => {
         return (
           <>
             <div key={article.id} className={styles.users_div_container}>
@@ -29,7 +29,7 @@ const User = ({ articles }) => {
                   <span>
                     <u>
                       Email
-                      <span class="material-symbols-outlined">
+                      <span className="material-symbols-outlined">
                         alternate_email
                       </span>
                       : {article.email}
